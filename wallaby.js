@@ -20,8 +20,7 @@ module.exports = function (wallaby) {
       tests: ['src/**/*.test.js?(x)'],
 
       env: {
-          type: 'node',
-          runner: 'node'
+          type: 'node'
       },
 
       compilers: {
